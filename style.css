@@ -1,0 +1,215 @@
+.mega-menu{
+	width:800px;
+	overflow:hidden;
+	padding:100px;
+}
+.mega-menu{ text-decoration:none; color:blue; }
+.mega-menu .sub-menu-heading{ text-decoration:none;}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	
+	
+}
+.right-menu li
+{
+	
+	display: inline-block;
+	margin-top: 30px !important;
+}
+.right-menu li .fa
+{
+	font-size: 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.navbar-brand img 
+{
+	width:125px;
+}
+.navbar-brand  
+{
+	left:50%;
+	top:10px;
+	transform:translateX(-50%);
+	position:absolute;
+	
+}
+.header
+{
+	background: #f5f6fc;
+	margin-bottom:80px;
+}
+.navbar
+{
+	padding:5 35px !important;
+}
+
+.navbar-toggler
+{
+border:none;
+outline:none;
+padding:0;
+margin-top:30px;	
+	
+}
+.banner-img
+{
+	margin:80px 90px;
+	width:50%;
+	
+	
+}
+.banner-img img
+{
+	width:100%;
+	margin-bottom:-50px;
+}
+.banner
+{
+	position:relative;
+}
+.banner-Title
+{
+	position:absolute;
+	left:50%;
+	top:20%;
+	
+}
+.banner-Title h1
+{
+	font-size:55px;
+	background:rgba(0,0,0,0.75);
+	color:#fff;
+	line-height:70px;
+	padding:0 10px 0 10px;
+}
+/*-------fashion-trends--------*/
+.fashion-trends
+{
+	padding:100px 0;
+}
+.fashion-box
+{
+	margin:80px 0;
+}
+.title-style h1
+{
+	padding:30px 0;
+}
+.title-style
+{
+	margin:0 auto 80px;
+	height: 120px;
+	width: 80%;
+	max-width: 700px;
+	background: #fff;
+	position: relative;
+	box-shadow:0 4px 5px 0 rgba(0,0,50,0.5);
+}
+.title-style::after
+{
+	content:'';
+	height:100px;
+	width:200px;
+	background-color:#f992a6;
+	position:absolute;
+	top:-10px;
+	left:-10px;
+	z-index:-1;
+}
+.title-style::before
+{
+	content:'';
+	height:100px;
+	width:200px;
+	background-color:#f992a6;
+	position:absolute;
+	bottom:-10px;
+	right:-10px;
+	z-index:-1;
+}
+.card-img-top 
+{
+	width: 100%;
+              
+}
+.fashion-brands
+{
+	margin-bottom:150px;
+}
+.brand-logo
+{
+	width:200px;
+	height:200px;
+	background:#fff;
+	border-radius:50%;
+	margin:50px auto 30px;
+	box-shadow:0 2px 40px 0 rgba(110,130,208,.18);
+}
+.brand-logo img
+{
+	width:100px;
+	margin:50px auto;
+}
+.fashion-brands p
+{
+	margin-top: 30px;
+	font-weight:bold;
+}
+/*------footer---------*/
+.footer
+{
+	margin-top:150px;
+	background:#f5f6fc;
+}
+.payment
+{
+	margin:50px auto;
+}
+.payment img
+{
+	width:300px;
+	cursor:pointer;
+}
+.app-download
+{
+	margin:50px auto;
+}
+.app-dwnload img
+{
+	width: 150px;
+	
+}
+.footer h5
+{
+	margin-bottom: 50px;
+}
+.footer h5::before
+{
+	content:'';
+	width:70px;
+	height: 3px;
+	background:#4f74e8;
+	top:75px;
+	position: absolute;
+}
+.footer-icons
+{
+	text-align: right;
+}
+.footer-icons .fa
+{
+	margin:0 10px auto;
+	font-size:20px;
+	cursor:pointer;
+}
+
+@media(max-width: 700px){
+.banner-Title
+	{
+		transform: translateX(-50%);
+	}
+}
